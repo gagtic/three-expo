@@ -28,7 +28,6 @@ const Box = (props: any) => {
 };
 
 const Shoe = (props: any) => {
-  console.log("yeet", require("./assets/Airmax/shoe.obj"));
   const obj = useLoader(OBJLoader, require("./assets/Airmax/shoe.obj"));
 
   return (
